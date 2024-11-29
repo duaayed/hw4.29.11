@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            border: 2px solid green;
+            padding: 10px 20px;
+            margin: 10px;
+            color: black;
+        }
+        a:hover{
+
+            background-color: green;
+            color: white;
+        }
+        ul{
+            background-color: yellow;
+            list-style-type: square;
+            
+        }
+        div{
+            position: relative;
+            
+        }
+        img{
+            width: 100px;
+            height: 140px;
+            z-index: -1;
+            position: absolute;
+            /* left: 20px; */
+            left: 0;
+            top: 0;
+            
+        }
+        h1,p{
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="">This is a link</a>
+    <br> <br> <br>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    <br><br>
+    <div>
+        <h1>This is a heading</h1>
+        <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+        <img src="pexels-padrinan-19670.jpg" alt="none">
+    </div>
+</body>
+</html>
